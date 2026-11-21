@@ -1,0 +1,17 @@
+{
+  "name": "usage-metering-edtech-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node --experimental-strip-types src/course_usage_report.ts",
+    "test": "node --experimental-strip-types src/usage_metering.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  }
+}
